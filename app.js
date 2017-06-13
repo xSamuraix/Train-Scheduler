@@ -9,8 +9,8 @@
         messagingSenderId: "291269746195"
       };
       firebase.initializeApp(config);
-      var trainName = $("#train-name-input").val().trim();
 
+      // Reference database
       var database = firebase.database();
     
 
